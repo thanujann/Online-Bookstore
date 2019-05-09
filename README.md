@@ -1,6 +1,6 @@
 # Online Bookstore
-This online bookstore runs on a DynamoDB database (non-relational), where data is stored and retrieved through the 
-use of the AWS SDK for Java. It is an adaptation of Amazon's online bookstore application 
+This online bookstore runs on a non-relational, DynamoDB database, where data is stored and retrieved through
+the AWS SDK for Java. It is an adaptation of Amazon's online bookstore application 
 that was written in Python (using Boto 3). Although simpler in Python, this project was done
 in Java to play around with the AWS SDK for Java, and to compare the differences between
 the Python and Java implementations.
