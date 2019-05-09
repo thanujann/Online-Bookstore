@@ -19,7 +19,7 @@ performance and scaling-capabilities are highly desired.
 1. The DynamoDB table (bookstore) was created, with the appropriate primary key (author + title) and attribute definitions.
 2. A global secondary index (on the category attribute) was added to the table.
 3. Items (books) were then loaded into the table.
-4. It was made possible to retrieve multiple items based on the hash key (author) of the primary key.
-5. It was made possible to query by the secondary index to retrieve all items with a specific attribute.
+4. It was made possible to retrieve multiple items based on the hash key (author).
+5. It was made possible to query by the secondary index (category).
 6. It was made possible to update any item in the table.
-7. The table was deleted to free the AWS resources used.
+7. The DynamoDB table was deleted to free the AWS resources used.
